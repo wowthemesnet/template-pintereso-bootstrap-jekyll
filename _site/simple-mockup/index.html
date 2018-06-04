@@ -12,12 +12,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution" />
 <meta property="og:description" content="Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution" />
+<link rel="canonical" href="http://localhost:4000/template-pintereso-bootstrap-jekyll/simple-mockup/" />
+<meta property="og:url" content="http://localhost:4000/template-pintereso-bootstrap-jekyll/simple-mockup/" />
 <meta property="og:site_name" content="Pintereso" />
-<meta property="og:image" content="/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg" />
+<meta property="og:image" content="http://localhost:4000/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-01-12T00:00:00+02:00" />
 <script type="application/ld+json">
-{"name":null,"description":"Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution","author":null,"@type":"BlogPosting","url":"/template-pintereso-bootstrap-jekyll/simple-mockup/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/template-pintereso-bootstrap-jekyll/assets/images/logo.png"}},"image":"/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg","headline":"Simple Mockups Bundle","dateModified":"2018-01-12T00:00:00+02:00","datePublished":"2018-01-12T00:00:00+02:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"/template-pintereso-bootstrap-jekyll/simple-mockup/"},"@context":"http://schema.org"}</script>
+{"name":null,"description":"Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution","author":null,"@type":"BlogPosting","url":"http://localhost:4000/template-pintereso-bootstrap-jekyll/simple-mockup/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/template-pintereso-bootstrap-jekyll/assets/images/logo.png"}},"image":"http://localhost:4000/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg","headline":"Simple Mockups Bundle","dateModified":"2018-01-12T00:00:00+02:00","datePublished":"2018-01-12T00:00:00+02:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/template-pintereso-bootstrap-jekyll/simple-mockup/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -57,237 +59,237 @@ $(function() {
 
 var documents = [{
     "id": 0,
-    "url": "/template-pintereso-bootstrap-jekyll/about.html",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/about.html",
     "title": "About",
     "body": "Hi, guys! The website you are previewing is a demonstration for Pintereso Jekyll theme and it is hosted on Github pages. There are various ways you can use Pintereso with your Jekyll website. Here are some of them:  blogging curated resources affiliate marketing resume portfolio photographyFeatures  100% Github Pages Compatibility Bootstrap 4. x SEO Integration Search Categories Prev/Next Post Pagination Disqus Comments Sitemap Feed Formspree Contact Form Pinterest, AddThis, Google Analytics Font Awesome 5+ Cookie Consent &amp; Privacy PolicyMade with by Sal @wowthemesnet. Thanks for your support! pintereso. zip Buy me a coffee? I’m tired! "
     }, {
     "id": 1,
-    "url": "/template-pintereso-bootstrap-jekyll/categories.html",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/categories.html",
     "title": "Categories",
     "body": "        Categories          {% include menu-categories. html %}          {% for category in site. categories %}       # {{ category[0] }}:         {% assign pages_list = category[1] %}    {% for post in pages_list %}     {% if post. title != null %}       {% if group == null or group == post. group %}        {% include card-post. html %}       {% endif %}     {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}  {% endfor %}    "
     }, {
     "id": 2,
-    "url": "/template-pintereso-bootstrap-jekyll/contact.html",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/contact.html",
     "title": "Contact",
     "body": "  Please send your message to {{site. name}}. We will reply as soon as possible!   "
     }, {
     "id": 3,
-    "url": "/template-pintereso-bootstrap-jekyll/privacy-policy.html",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/",
+    "title": "Pintereso Free Jekyll Theme",
+    "body": "        Explore          {% include menu-categories. html %}                    {% for post in paginator. posts reversed %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
+    }, {
+    "id": 4,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/privacy-policy.html",
     "title": "Privacy Policy",
     "body": "”{{site. name}}” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used. Collection of Routine Information: This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes. Cookies: Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content. Advertisement and Other Third Parties: Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to opt out of Google’s cookie usage. Links to Third Party Websites: We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own. Security: The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security. Changes To This Privacy Policy: This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website. Contact Information: For any questions or concerns regarding the privacy policy, please contact us here. "
     }, {
-    "id": 4,
-    "url": "/template-pintereso-bootstrap-jekyll/robots.txt",
+    "id": 5,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/robots.txt",
     "title": "",
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
-    "id": 5,
-    "url": "/template-pintereso-bootstrap-jekyll/index.html",
-    "title": "Pintereso Free Jekyll Theme",
-    "body": "        Explore          {% include menu-categories. html %}                    {% for post in paginator. posts %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
-    }, {
     "id": 6,
-    "url": "/template-pintereso-bootstrap-jekyll/page2/index.html",
-    "title": "Pintereso Free Jekyll Theme - page 2",
-    "body": "        Explore          {% include menu-categories. html %}                    {% for post in paginator. posts %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/page2/",
+    "title": "Pintereso Free Jekyll Theme",
+    "body": "        Explore          {% include menu-categories. html %}                    {% for post in paginator. posts reversed %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
     }, {
     "id": 7,
-    "url": "/template-pintereso-bootstrap-jekyll/maltese/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/stellar-social-media-banner/",
+    "title": "Stellar Social Media Banner Pack",
+    "body": "2018/06/01 - 12 fully editable banner designs, each in 5 different sizes optimized for Facebook, Twitter, Instagram, Pinterest and Blog adds and posts! Very easy to edit, with 100 stock photos included, this pack is an awesome way to create stunning and eye catching adds and posts. "
+    }, {
+    "id": 8,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/maltese/",
     "title": "Maltese",
     "body": "2018/05/30 - Inside you’ll find 10 easy to edit, fully customisable Moodboard Templates, created in PHOTOSHOP and optimised in 2 different sizes for the best presentation on Pinterest, Instagram and not only. "
     }, {
-    "id": 8,
-    "url": "/template-pintereso-bootstrap-jekyll/intro-ui-kit/",
+    "id": 9,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/intro-ui-kit/",
     "title": "Intro UI Kit",
     "body": "2018/05/30 - Intro is the modern and minimalistic UI Kit that will help you simplify your work. Perfect for creating websites of agencies, studios and creative people around the world. "
     }, {
-    "id": 9,
-    "url": "/template-pintereso-bootstrap-jekyll/material/",
+    "id": 10,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/material/",
     "title": "Material Mobile UI Kit",
     "body": "2018/05/12 - Matta - Material Design Mobile UI Kit is the superb library of app Templates and UI elements combined into high-quality source files for Sketch. All you need for quick prototype, design and develop any Material Design mobile app. "
     }, {
-    "id": 10,
-    "url": "/template-pintereso-bootstrap-jekyll/flowers/",
+    "id": 11,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/flowers/",
     "title": "Flowers Illustrations",
     "body": "2018/05/12 - Ethereal Blush-Florals Graphic Set. "
     }, {
-    "id": 11,
-    "url": "/template-pintereso-bootstrap-jekyll/circular/",
+    "id": 12,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/circular/",
     "title": "Circular",
     "body": "2018/05/12 - Circular is a pack of 5 beautiful, responsive and unique landing pages. "
     }, {
-    "id": 12,
-    "url": "/template-pintereso-bootstrap-jekyll/aries/",
+    "id": 13,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/aries/",
     "title": "Aries WP Theme",
     "body": "2018/05/12 - Aries is a Premium WordPress Themes for bloggers. "
     }, {
-    "id": 13,
-    "url": "/template-pintereso-bootstrap-jekyll/web-concepts-library/",
+    "id": 14,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/web-concepts-library/",
     "title": "Web Concepts Library",
     "body": "2018/01/12 - A collection of sites concepts in various styles with Templates, style-guides and a huge layout library made to quickly tryout your current project in different concepts. "
     }, {
-    "id": 14,
-    "url": "/template-pintereso-bootstrap-jekyll/violett/",
+    "id": 15,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/violett/",
     "title": "Violett",
     "body": "2018/01/12 - Violett Web is a rich and minimal a Dashboard &amp; Admin app specially designed to fit right into the web. It’s the result of an obsession to simplify the user experience for business and data management on all web platforms, and help you radiate your true vision and ideas into a gorgeously clean and beautiful design. "
     }, {
-    "id": 15,
-    "url": "/template-pintereso-bootstrap-jekyll/universal-web/",
+    "id": 16,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/universal-web/",
     "title": "Universal Web UI Kit",
     "body": "2018/01/12 - Stylish and minimalistic pack of 523 UI components for creating a modern online store, blog, magazine, or online media. Dark and light screens in 2 font variations. "
     }, {
-    "id": 16,
-    "url": "/template-pintereso-bootstrap-jekyll/ui-kit-bundle/",
+    "id": 17,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/ui-kit-bundle/",
     "title": "UI Kit Bundle",
     "body": "2018/01/12 - Get these six awesome high quality UI kits. "
     }, {
-    "id": 17,
-    "url": "/template-pintereso-bootstrap-jekyll/tinyone/",
+    "id": 18,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/tinyone/",
     "title": "Tinyone PSD Template",
     "body": "2018/01/12 - Base on the idea which help you create clean, minimal portfolio website in short time, Tinyone is blocked base with various layouts which is built with modern webdesign technology. "
     }, {
-    "id": 18,
-    "url": "/template-pintereso-bootstrap-jekyll/symbol/",
+    "id": 19,
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/symbol/",
     "title": "Symbol Design System",
     "body": "2018/01/12 - Symbol is an advanced web-design system based on Sketch nested symbols. There are not only the components but also the logic, the atomic structure. You can easily change just one symbol to create your own design style super fast. "
     }, {
-    "id": 19,
-    "url": "/template-pintereso-bootstrap-jekyll/stellar-social-media-banner/",
-    "title": "Stellar Social Media Banner Pack",
-    "body": "2018/01/12 - 12 fully editable banner designs, each in 5 different sizes optimized for Facebook, Twitter, Instagram, Pinterest and Blog adds and posts! Very easy to edit, with 100 stock photos included, this pack is an awesome way to create stunning and eye catching adds and posts. "
-    }, {
     "id": 20,
-    "url": "/template-pintereso-bootstrap-jekyll/simple-mockup/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/simple-mockup/",
     "title": "Simple Mockups Bundle",
     "body": "2018/01/12 - Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution "
     }, {
     "id": 21,
-    "url": "/template-pintereso-bootstrap-jekyll/scorilo/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/scorilo/",
     "title": "Scorilo WP Theme",
     "body": "2018/01/12 - Scorilo is a Premium Easy Digital Downloads WordPress theme. "
     }, {
     "id": 22,
-    "url": "/template-pintereso-bootstrap-jekyll/scandinavian/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/scandinavian/",
     "title": "Scandinavian",
     "body": "2018/01/12 - A Premium WordPress theme for your next project. "
     }, {
     "id": 23,
-    "url": "/template-pintereso-bootstrap-jekyll/roadmap/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/roadmap/",
     "title": "Roadmap Mobile UI Kit",
     "body": "2018/01/12 - Rodman is a gorgeous mobile UI Kit with clean and light design. Packed with 80+ layouts in 7 categories it surely will help you to speed up your UI/UX workflow and create an outstanding experience. Each layout was carefully crafted using nested symbols. "
     }, {
     "id": 24,
-    "url": "/template-pintereso-bootstrap-jekyll/refined/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/refined/",
     "title": "Refined WP Theme",
     "body": "2018/01/12 - Refined is clean and airy, a striking backdrop for what you do. Perfect for ecommerce shops and boutiques, as well as crafters, makers, photographers, event curators, florists, foodies, bloggers and creatives of every type. Refined is set up for a full-powered site, a blog, a shop, a portfolio, or all of them in one! "
     }, {
     "id": 25,
-    "url": "/template-pintereso-bootstrap-jekyll/redxun/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/redxun/",
     "title": "Redxun WP Theme",
     "body": "2018/01/12 - Redxun is a Premium WordPress Themes for bloggers. "
     }, {
     "id": 26,
-    "url": "/template-pintereso-bootstrap-jekyll/pintereso-jekyll/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/pintereso-jekyll/",
     "title": "Pintereso Jekyll Theme",
     "body": "2018/01/12 - Pintereso is a Free Jekyll template. "
     }, {
     "id": 27,
-    "url": "/template-pintereso-bootstrap-jekyll/odessa/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/odessa/",
     "title": "Odessa UI Kit",
     "body": "2018/01/12 - Odessa is a helpful kit for prototyping responsive websites and boosting up your design workflow in Sketch. "
     }, {
     "id": 28,
-    "url": "/template-pintereso-bootstrap-jekyll/mediumish/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/mediumish/",
     "title": "Mediumish WP Theme",
     "body": "2018/01/12 - This is Mediumish, a Premium WordPress theme Medium-style. "
     }, {
     "id": 29,
-    "url": "/template-pintereso-bootstrap-jekyll/mediumish-jekyll/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/mediumish-jekyll/",
     "title": "Mediumsih Jekyll Theme",
     "body": "2018/01/12 - “Mediumish” is a Jekyll template, designed for Medium’s website design fans. Thus it’s clean, minimal, beautiful and modern! "
     }, {
     "id": 30,
-    "url": "/template-pintereso-bootstrap-jekyll/ios/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/ios/",
     "title": "UIXO iOS 11 Wireframe Kit",
     "body": "2018/01/12 - UIXO is a collection of 105 beautiful wireframes of iOS 11 screens for iPhone X. UIXO iOS 11 Wireframes will help you to start &amp; prototype any iOS app for iPhone X. In Sketch file you will find 16 the most popular categories. "
     }, {
     "id": 31,
-    "url": "/template-pintereso-bootstrap-jekyll/graphic-bundle/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/graphic-bundle/",
     "title": "Graphic Bundle",
     "body": "2018/01/12 - 16300 Graphic Elements in 1 Giant Bundle ~ the Extended License is the same price "
     }, {
     "id": 32,
-    "url": "/template-pintereso-bootstrap-jekyll/grade/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/grade/",
     "title": "Grade UI Kit",
     "body": "2018/01/12 - This might be the most powerful UI kit created by UI Chest. With more than 1,000 carefully crafted elements for Sketch and Photoshop, this kit is designed to save you time and money. "
     }, {
     "id": 33,
-    "url": "/template-pintereso-bootstrap-jekyll/grace/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/grace/",
     "title": "Grace UI Kit",
     "body": "2018/01/12 - Grace is the modern and minimalistic UI Kit that will help you simplify your work. Includes 7 popular categories: Headers, Ecommerce, Blog/Magazine, Media, Forms, Navigation and Styleguide. All components are flexible and easy to use in Scetch &amp; Photoshop. "
     }, {
     "id": 34,
-    "url": "/template-pintereso-bootstrap-jekyll/fotico/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/fotico/",
     "title": "Fotico HTML Template",
     "body": "2018/01/12 - Fotico is a trendy, minimalistic and ultra modern HTML5 template for photographers, an architect, musicians, creative agencies, resumes, etc. "
     }, {
     "id": 35,
-    "url": "/template-pintereso-bootstrap-jekyll/empty-states/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/empty-states/",
     "title": "Empty States",
     "body": "2018/01/12 - Empty states are one of the most overlooked aspects of app design. With this Empty States mobile illustrations kit, you could make sure your app delivers the full experience to the end user. Making your user more informed and keep them interested. "
     }, {
     "id": 36,
-    "url": "/template-pintereso-bootstrap-jekyll/dashboard-kit/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/dashboard-kit/",
     "title": "Dashboard Kit",
     "body": "2018/01/12 - 130+ beautiful and modern modules for prototyping, design &amp; developing amazing dashboard apps. "
     }, {
     "id": 37,
-    "url": "/template-pintereso-bootstrap-jekyll/dashb/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/dashb/",
     "title": "Dashboard Kit",
     "body": "2018/01/12 - Photoshop massive collection of fully customizable UI components, closely related to each other and combined on different levels, regarding systematic design principles. Ultimate tool to start designing in system or boosting up your working process at any stage, from prototyping to stylization. "
     }, {
     "id": 38,
-    "url": "/template-pintereso-bootstrap-jekyll/creation/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/creation/",
     "title": "Creation Web UI Kit",
     "body": "2018/01/12 - The Creation Web UI kit is the largest library you could ever find. Designing using it will definitely be enjoyable as we have every elements you need for you to customize. Each is fully editable and pixel perfect. Additionally, we have created both light and dark blocks so that your design will be way easier than it was. It is definitely the tool you need in your collection! "
     }, {
     "id": 39,
-    "url": "/template-pintereso-bootstrap-jekyll/capi-restaurant/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/capi-restaurant/",
     "title": "Capi Restaurant",
     "body": "2018/01/12 - Capi Restaurant UI Kit is a high quality pack of 40+ social app screens based on iOS 11 which will accelerate your design process and will help develop an outstanding experience. 100% Vector Based, so all screens can be easily resized to fit other iPhone screens. Dimensions 375x812 and 375x667. "
     }, {
     "id": 40,
-    "url": "/template-pintereso-bootstrap-jekyll/brake/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/brake/",
     "title": "Brake UI Kit",
     "body": "2018/01/12 - Brake is UI Kit with more than 60 app screens in 12 categories. Each screen is fully customizable, exceptionally easy to use and carefully layered and grouped in Sketch app. "
     }, {
     "id": 41,
-    "url": "/template-pintereso-bootstrap-jekyll/biscaya/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/biscaya/",
     "title": "Biscaya",
     "body": "2018/01/12 - Biscaya is a Premium multipurpose WordPress theme built with Elementor. "
     }, {
     "id": 42,
-    "url": "/template-pintereso-bootstrap-jekyll/atomize/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/atomize/",
     "title": "Atomize Design System",
     "body": "2018/01/12 - Atomize is a UI design framework that helps designers and developers design well-structured, scalable and more consistent interfaces for the web. It is based on Atomic design methodology which has atoms and molecules as reusable building blocks. "
     }, {
     "id": 43,
-    "url": "/template-pintereso-bootstrap-jekyll/affiliates/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/affiliates/",
     "title": "Affiliates Jekyll Theme",
     "body": "2018/01/12 - “Affiliates” is a blogging Jekyll theme for affiliate marketers. It has a clean, minimal, beautiful and modern look. "
     }, {
     "id": 44,
-    "url": "/template-pintereso-bootstrap-jekyll/lambada/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/lambada/",
     "title": "Lambada WP Theme",
     "body": "2017/06/01 - Lambada is a Premium Easy Digital Downloads WordPress theme. "
     }, {
     "id": 45,
-    "url": "/template-pintereso-bootstrap-jekyll/adobe-muse-bundle/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/adobe-muse-bundle/",
     "title": "Adobe Muse Bundle",
     "body": "2017/06/01 - Modern, minimal and creative Adobe Muse Template Bundle with full responsive and individually (mobile, tablet and desktop “older adobe muse style”) layouts. "
     }, {
     "id": 46,
-    "url": "/template-pintereso-bootstrap-jekyll/nectaria/",
+    "url": "http://localhost:4000/template-pintereso-bootstrap-jekyll/nectaria/",
     "title": "Nectaria WP Theme",
     "body": "2017/01/12 - Nectaria is a Free responsive WordPress theme for blogging, with a beautiful generous custom header, masonry layout, responsive and translation ready. A design that’s suitable for any kind of niche, Nectaria’s Premium design will impress your visitors. "
     }];
@@ -396,11 +398,11 @@ function lunr_search(term) {
                     
                   
                     <span class="pinme">
-                        <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=/template-pintereso-bootstrap-jekyll/simple-mockup/&media=/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg&description=Simple Mockups Bundle- Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution
+                        <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http://localhost:4000/template-pintereso-bootstrap-jekyll/simple-mockup/&media=http://localhost:4000/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg&description=Simple Mockups Bundle- Super clean, minimalistic, stylized mockup collection with awesome customization features and huge resolution
 
 "></a>
                     </span>
-                    <img class="card-img-top mb-2" src="/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg" alt="Simple Mockups Bundle"> 
+                    <img class="card-img-top mb-2" src="http://localhost:4000/template-pintereso-bootstrap-jekyll/assets/images/simple-mockup.jpg" alt="Simple Mockups Bundle"> 
                 
                     
     			<div class="card-body">
@@ -463,7 +465,7 @@ function lunr_search(term) {
                 
                 <div class="PageNavigation">
                   
-                    <a class="prev" href="/template-pintereso-bootstrap-jekyll/stellar-social-media-banner/"><i class="fa fa-angle-left"></i> </a>
+                    <a class="prev" href="/template-pintereso-bootstrap-jekyll/symbol/"><i class="fa fa-angle-left"></i> </a>
                   
                   
                     <a class="next" href="/template-pintereso-bootstrap-jekyll/scorilo/"><i class="fa fa-angle-right"></i></a>
@@ -511,11 +513,11 @@ function lunr_search(term) {
 </p>
 
 <p>
-    <a class="text-muted" href="/template-pintereso-bootstrap-jekyll/">
+    <a class="text-muted" href="http://localhost:4000/template-pintereso-bootstrap-jekyll/">
         &copy;  Pintereso. 
     </a>
     
-    <a class="text-muted" href="/template-pintereso-bootstrap-jekyll/privacy-policy.html">
+    <a class="text-muted" href="http://localhost:4000/template-pintereso-bootstrap-jekyll/privacy-policy.html">
         Privacy Policy.
     </a>
     
@@ -563,7 +565,7 @@ window.cookieconsent.initialise({
   },
   "position": "bottom-left",
   "content": {
-    "href": "/template-pintereso-bootstrap-jekyll/privacy-policy.html"
+    "href": "http://localhost:4000/template-pintereso-bootstrap-jekyll/privacy-policy.html"
   }
 })});
 </script>

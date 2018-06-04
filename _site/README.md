@@ -1,6 +1,6 @@
 # "Pintereso" - Jekyll Template by WowThemes.net
 
-[Live Demo](https://wowthemesnet.github.io/pintereso-jekyll-theme/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/pintereso-jekyll-theme/archive/master.zip)
+[Live Demo](https://wowthemesnet.github.io/template-pintereso-jekyll-theme/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip)
 
 ![Free Jekyll Theme Pintereso](assets/images/screenshot.jpg)
 

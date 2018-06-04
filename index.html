@@ -2,9 +2,6 @@
 title: "Pintereso Free Jekyll Theme"
 layout: default
 description: "A great collection of free and premium themes and templates."
-pagination: 
-    enabled: true
-permalink: "/index.html"
 ---
 
 <section class="mt-4 mb-5">
@@ -20,7 +17,7 @@ permalink: "/index.html"
 <div class="container-fluid">
     
     <div class="card-columns">        
-        {% for post in paginator.posts %}
+        {% for post in paginator.posts reversed %}
             {% include card-post.html %}
         {% endfor %}            
     </div>

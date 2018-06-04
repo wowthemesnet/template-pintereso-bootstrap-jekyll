@@ -15,7 +15,7 @@ permalink: /:title/
 plugins: 
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-seo-tag
  
 # Defaults
@@ -39,12 +39,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Pagination
-pagination: 
-  enabled: true
-  collection: 'posts'
-  per_page: 20
-  indexpage: 'index'
-  sort_reverse: true
+paginate: 20
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
