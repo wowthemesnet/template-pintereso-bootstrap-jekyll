@@ -39,7 +39,7 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
 #### Plugins: 
     - jekyll-feed
     - jekyll-sitemap
-    - jekyll-paginate-v2
+    - jekyll-paginate
     - jekyll-seo-tag
 
 #### Customize
