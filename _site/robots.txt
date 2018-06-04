@@ -1,0 +1,1 @@
+Sitemap: /template-pintereso-bootstrap-jekyll/sitemap.xml
