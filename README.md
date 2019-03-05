@@ -1,6 +1,6 @@
 # "Pintereso" - Jekyll Template by WowThemes.net
 
-[Live Demo](https://wowthemesnet.github.io/template-pintereso-bootstrap-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip)
+[Live Demo](https://wowthemesnet.github.io/template-pintereso-bootstrap-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip) &nbsp; | &nbsp; [Donate](https://www.wowthemes.net/donate/)
 
 ![Free Jekyll Theme Pintereso](assets/images/screenshot.jpg)
 
@@ -94,7 +94,7 @@ Copyright (C) 2018 WowThemes.net.
 
 **Pintereso for Jekyll** is designed by [Sal](https://www.wowthemes.net) and it is licensed MIT. If you want to thank Sal:
 
-<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 -----------------
 
