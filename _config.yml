@@ -1,12 +1,12 @@
 # Site
-name: 'Pintereso'
-description: 'Pintereso is a free Jekyll theme for awesome people like you, Pinterest like.'
+name: 'Link in Bio'
+description: 'Open source solution to post links in your Instagram posts.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/template-pintereso-bootstrap-jekyll'
+baseurl: '/linkinbio'
 avatar: 'assets/images/sal.jpg'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+disqus: ''
+email: 'maximousblk@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
