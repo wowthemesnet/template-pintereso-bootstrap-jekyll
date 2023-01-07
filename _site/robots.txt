@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/template-pintereso-bootstrap-jekyll/sitemap.xml
+Sitemap: http://localhost:4000/jagarian1/pintereso-jerome/sitemap.xml
