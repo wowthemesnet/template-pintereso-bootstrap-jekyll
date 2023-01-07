@@ -3,10 +3,10 @@ name: 'Pintereso'
 description: 'Pintereso is a free Jekyll theme for awesome people like you, Pinterest like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/template-pintereso-bootstrap-jekyll'
+baseurl: '/jagarian1/pintereso-jerome'
 avatar: 'assets/images/sal.jpg'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+disqus: 'jeromemi'
+email: 'sanghyun2jeon@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
